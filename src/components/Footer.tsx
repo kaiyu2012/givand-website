@@ -7,10 +7,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">G</span>
-              </div>
+            <div className="flex items-center space-x-3 mb-4">
+              <img src="/logo-icon.svg" alt="Givand Logo" className="w-12 h-12" />
               <div>
                 <h3 className="text-white font-bold text-lg">GIVAND</h3>
                 <p className="text-xs text-gray-400">Import & Export</p>

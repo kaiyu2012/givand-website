@@ -140,7 +140,7 @@ After deployment, check:
 1. **Test the website thoroughly**
 2. **Set up custom domain** (if not done already)
 3. **Configure Web Analytics** in Cloudflare
-4. **Enable email forwarding** for info@givand.com
+4. **Enable email forwarding** for sunlibo@givand.com
 5. **Submit sitemap** to Google Search Console
 6. **Add to business directories** (Google Business, etc.)
 

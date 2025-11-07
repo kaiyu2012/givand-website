@@ -12,7 +12,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     // Note: In production, this should be connected to a backend API or email service
-    const mailtoLink = `mailto:info@givand.com?subject=Quote Request from ${formData.name}&body=Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0ACompany: ${formData.company}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`
+    const mailtoLink = `mailto:sunlibo@givand.com?subject=Quote Request from ${formData.name}&body=Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0ACompany: ${formData.company}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`
     window.location.href = mailtoLink
   }
 
@@ -81,8 +81,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
-                    <a href="mailto:info@givand.com" className="text-primary-600 hover:text-primary-700">
-                      info@givand.com
+                    <a href="mailto:sunlibo@givand.com" className="text-primary-600 hover:text-primary-700">
+                      sunlibo@givand.com
                     </a>
                   </div>
                 </div>

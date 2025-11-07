@@ -197,7 +197,7 @@ givand-website/
 
 **Company**: Ningbo Givand Import and Export Co., Ltd.
 **Address**: Xiqiaotou, Miaoshan Village, Cicheng Town, Jiangbei District, Ningbo City, Zhejiang, China 315034
-**Email**: info@givand.com
+**Email**: sunlibo@givand.com
 **Website**: https://givand.com
 
 ## License

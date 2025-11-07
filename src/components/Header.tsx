@@ -37,15 +37,13 @@ const Header = () => {
             transition={{ delay: 0.2 }}
             className="flex items-center"
           >
-            <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">G</span>
-              </div>
+            <a href="#home" className="flex items-center space-x-3">
+              <img src="/logo-icon.svg" alt="Givand Logo" className="w-12 h-12" />
               <div>
                 <h1 className="text-xl font-bold text-gray-900">GIVAND</h1>
                 <p className="text-xs text-gray-600">Import & Export</p>
               </div>
-            </div>
+            </a>
           </motion.div>
 
           {/* Desktop Navigation */}
