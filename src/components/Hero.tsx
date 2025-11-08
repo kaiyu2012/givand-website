@@ -56,23 +56,46 @@ const Hero = () => {
               </a>
             </motion.div>
 
-            {/* Stats */}
+            {/* Trust Badges */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6 }}
-              className="grid grid-cols-3 gap-8 mt-12 pt-12 border-t border-gray-200"
+              className="mt-10"
             >
-              <div>
-                <div className="text-3xl font-bold text-primary-600">10+</div>
+              <div className="flex flex-wrap gap-3 mb-8">
+                <div className="flex items-center bg-white px-4 py-2 rounded-full shadow-sm border border-primary-200">
+                  <span className="text-green-500 text-lg mr-2">✓</span>
+                  <span className="text-sm font-semibold text-gray-700">Quality Guaranteed</span>
+                </div>
+                <div className="flex items-center bg-white px-4 py-2 rounded-full shadow-sm border border-primary-200">
+                  <span className="text-primary-500 text-lg mr-2">🏆</span>
+                  <span className="text-sm font-semibold text-gray-700">Trusted Since 2014</span>
+                </div>
+                <div className="flex items-center bg-white px-4 py-2 rounded-full shadow-sm border border-primary-200">
+                  <span className="text-primary-500 text-lg mr-2">🌍</span>
+                  <span className="text-sm font-semibold text-gray-700">50+ Countries Served</span>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Stats */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.7 }}
+              className="grid grid-cols-3 gap-8 mt-8 pt-8 border-t border-gray-200"
+            >
+              <div className="text-center md:text-left">
+                <div className="text-4xl font-bold text-primary-600">10+</div>
                 <div className="text-sm text-gray-600 mt-1">Years Experience</div>
               </div>
-              <div>
-                <div className="text-3xl font-bold text-primary-600">1000+</div>
-                <div className="text-sm text-gray-600 mt-1">Shipments</div>
+              <div className="text-center md:text-left">
+                <div className="text-4xl font-bold text-primary-600">1000+</div>
+                <div className="text-sm text-gray-600 mt-1">Successful Shipments</div>
               </div>
-              <div>
-                <div className="text-3xl font-bold text-primary-600">99%</div>
+              <div className="text-center md:text-left">
+                <div className="text-4xl font-bold text-primary-600">99%</div>
                 <div className="text-sm text-gray-600 mt-1">On-Time Delivery</div>
               </div>
             </motion.div>

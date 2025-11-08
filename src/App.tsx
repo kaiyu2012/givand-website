@@ -2,10 +2,12 @@ import { useEffect } from 'react'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Services from './components/Services'
+import OurProcess from './components/OurProcess'
 import About from './components/About'
 import WhyChooseUs from './components/WhyChooseUs'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import WhatsAppButton from './components/WhatsAppButton'
 
 function App() {
   useEffect(() => {
@@ -42,11 +44,13 @@ function App() {
       <main>
         <Hero />
         <Services />
+        <OurProcess />
         <About />
         <WhyChooseUs />
         <Contact />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   )
 }
